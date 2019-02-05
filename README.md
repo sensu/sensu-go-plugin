@@ -7,18 +7,21 @@ TODO: Description.
 
 Before you create an asset, determine if it is a collection. How does one determine if an asset is collection?
 
-> What is an asset collection?
+1. What is an asset collection?
+
 An asset collection is a large group of executables used for monitoring a service.
 
-> What are some examples of an asset collection?
+2. What are some examples of an asset collection?
 
 * NOT a asset collection - [Pushbullet Plugin][2]
 * IS a asset collection - [Sensu AWS Plugins][3]
 
-> Why mention asset collections?
+3. Why mention asset collections?
+
 Due to the nature of asset collections, it can be difficult to write documentation that clearly states how to use the collection. We want to ensure that asset documentation is clear and that it effectively guides users on using a collection.
 
-> What should I do if I have a collection?
+4. What should I do if I have a collection?
+
 Instead of using the examples below, we ask that you please use the [asset collection README example][4]
 
 ## Installation
