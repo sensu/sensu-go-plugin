@@ -1,10 +1,10 @@
 # Sensu CHANGEME Plugin
 
-[![Bonsai Asset Badge](https://img.shields.io/badge/CHANGEME-Download%20Me-brightgreen.svg?colorB=89C967&logo=sensu)](https://bonsai.sensu.io/assets/CHANGEME/CHANGEME) [![TravisCI Build Status](https://travis-ci.org/CHANGEME/sensu-CHANGEME.svg?branch=master)](https://travis-ci.org/CHANGEME/sensu-CHANGEME)
+[![Bonsai Asset Badge](https://img.shields.io/badge/sensu--CHANGEME--plugin-Download%20on%20Bonsai-brightgreen.svg?colorB=89C967&logo=sensu)](https://bonsai.sensu.io/assets/CHANGEME/CHANGEME-email-plugin) [![TravisCI Build Status](https://travis-ci.org/sensu/sensu-email-handler.svg?branch=master)](https://travis-ci.org/sensu/sensu-email-handler)
 
 TODO: Description
 
-<!-- For a repository one Sensu plugins, use the standard plugin README template: https://github.com/sensu/sensu-go-plugin/blob/master/README.md -->
+<!-- For a repository containing one Sensu plugin, use the standard plugin README template: https://github.com/sensu/sensu-go-plugin/blob/master/README.md -->
 
 - [Plugin 1](#)
 - [Plugin 2](#)
