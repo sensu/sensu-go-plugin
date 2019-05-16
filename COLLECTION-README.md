@@ -6,19 +6,19 @@ TODO: Description
 
 <!-- For a repository containing one Sensu plugin, use the standard plugin README template: https://github.com/sensu/sensu-go-plugin/blob/master/README.md -->
 
-- [Plugin 1](#)
-- [Plugin 2](#)
+- [Plugin 1](#plugin-1)
+- [Plugin 2](#plugin-2)
 - [Installation](#installation)
 - [Contributing](#contributing)
 
 ## Service checks
-<!-- Include this section if the plugin performs service checks -->
+<!-- Include this section if the plugins included in this collection perform service checks -->
 
-[`service_health`](#service-health)
+[`plugin 1`](#plugin-1)
 - **description**: Monitors the service `/healthz` endpoint to confirm the service is healthy.
 - **output**: status information
 
-[`check_name`](#check-name)
+[`plugin 2`](#plugin-2)
 - **description**: The check description should describe the service health checking capability provided by the plugin.
 - **output**: status information
 
@@ -112,7 +112,6 @@ spec:
     - 
   runtime_assets:
     - 
-  timeout: 0
 ```
 
 #### Example Sensu filter definition
@@ -147,7 +146,6 @@ spec:
     - 
   runtime_assets:
     - 
-  timeout: 0
 ```
 
 ## Plugin 2
