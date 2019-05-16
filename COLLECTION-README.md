@@ -14,14 +14,13 @@ TODO: Description
 ## Service checks
 <!-- Include this section if the plugin performs service checks -->
 
-- **name**: [`service_health`](#)  
-  **description**: Monitors the service `/healthz` endpoint to confirm the service is healthy.   
-  **output**: status information
+[`service_health`](#service-health)
+- **description**: Monitors the service `/healthz` endpoint to confirm the service is healthy.
+- **output**: status information
 
-- **name**: [`check_name`](#) .  
-  **description**: The check description should describe the service health checking
-  capability provided by the plugin.   
-  **output**: status information
+[`check_name`](#check-name)
+- **description**: The check description should describe the service health checking capability provided by the plugin.
+- **output**: status information
 
 ## Plugin 1
 
@@ -30,38 +29,17 @@ TODO: Description
 ### Metrics
 <!-- Include this section if the plugin collects metrics. -->
 
-- **name**: `example.error_rate` .  
-  **description**: The percentage of error responses, calculated as "count of
-  error responses / total count of responses".   
-  **unit**: percentile
+`metric_name`
+- **description**: The metric description should clearly explain what data is
+  being measured, and provide some information regarding what it should mean to the user.
+- **unit**: unit specification
 
-- **name**: `metric_name`   
-  **description**: The metric description should clearly explain what data is
-  being measured, and provide some information regarding what it should mean to the user.   
-  **unit**: unit specification
+`example.error_rate`
+- **description**: The percentage of error responses, calculated as "count of
+  error responses / total count of responses".
+- **unit**: percentile
 
 ### Usage
-
-```
-sensu-CHANGEME
-```
-
-#### Flags
-
-```
-sensu-CHANGEME --flag value
-```
-
-| flag        | required | type    | description                   |
-| ----------- | -------- | ------- | ----------------------------- |
-| -f, --foo   | yes      | string  | Example flag (default: value) |
-| --help      | no       | string  | Help for sensu-CHANGEME       |
-
-#### Dependencies
-
-- 
-
-#### Help
 
 ```
 The Sensu Go CHANGEME for x
@@ -73,6 +51,10 @@ Flags:
   -f, --foo string   example
   -h, --help         help for sensu-CHANGEME
 ```
+
+#### Dependencies
+<!-- List dependencies required by the plugin, or write "none" -->
+
 
 ### Configuration
 
@@ -175,38 +157,17 @@ TODO: Description
 ### Metrics
 <!-- Include this section if the plugin collects metrics. -->
 
-- **name**: `example.error_rate` .  
-  **description**: The percentage of error responses, calculated as "count of
-  error responses / total count of responses".   
-  **unit**: percentile
+`metric_name`
+- **description**: The metric description should clearly explain what data is
+  being measured, and provide some information regarding what it should mean to the user.
+- **unit**: unit specification
 
-- **name**: `metric_name`   
-  **description**: The metric description should clearly explain what data is
-  being measured, and provide some information regarding what it should mean to the user.   
-  **unit**: unit specification
+`example.error_rate`
+- **description**: The percentage of error responses, calculated as "count of
+  error responses / total count of responses".
+- **unit**: percentile
 
 ### Usage
-
-```
-sensu-CHANGEME
-```
-
-#### Flags
-
-```
-sensu-CHANGEME --flag value
-```
-
-| flag        | required | type    | description                   |
-| ----------- | -------- | ------- | ----------------------------- |
-| -f, --foo   | yes      | string  | Example flag (default: value) |
-| --help      | no       | string  | Help for sensu-CHANGEME       |
-
-#### Dependencies
-
-- 
-
-#### Help
 
 ```
 The Sensu Go CHANGEME for x
@@ -218,6 +179,10 @@ Flags:
   -f, --foo string   example
   -h, --help         help for sensu-CHANGEME
 ```
+
+#### Dependencies
+<!-- List dependencies required by the plugin, or write "none" -->
+
 
 ### Configuration
 
