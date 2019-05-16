@@ -55,7 +55,6 @@ metadata:
   name: example
   namespace: default
 spec:
-  check_hooks: null
   command: sensu-CHANGEME
   env_vars: null
   handlers:
@@ -72,11 +71,8 @@ spec:
   runtime_assets:
     - 
   stdin: false
-  subdue: null
   subscriptions:
   - 
-  timeout: 0
-  ttl: 0
 ```
 
 ### Example Sensu handler definition
