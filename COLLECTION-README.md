@@ -4,10 +4,10 @@
 
 TODO: Description
 
-<!-- For a repository containing one Sensu plugin, use the standard plugin README template: https://github.com/sensu/sensu-go-plugin/blob/master/README.md -->
+<!-- For a repository containing one Sensu command, use the standard plugin README template: https://github.com/sensu/sensu-go-plugin/blob/master/README.md -->
 
-- [Plugin 1](#plugin-1)
-- [Plugin 2](#plugin-2)
+- [Check 1](#plugin-1)
+- [Handler 2](#plugin-2)
 - [Installation](#installation)
 - [Contributing](#contributing)
 
