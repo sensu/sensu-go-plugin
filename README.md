@@ -38,8 +38,8 @@ Flags:
 ```
 
 ### Dependencies
+<!-- List dependencies required by the plugin, or write "none" -->
 
-- 
 
 ## Configuration
 
