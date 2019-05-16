@@ -14,38 +14,17 @@ TODO: Description
 ## Metrics
 <!-- Include this section if the plugin collects metrics. -->
 
-- **name**: `example.error_rate`  
-  **description**: The percentage of error responses, calculated as "count of
-  error responses / total count of responses".  
-  **unit**: percentile
+`metric_name`
+- **description**: The metric description should clearly explain what data is
+  being measured, and provide some information regarding what it should mean to the user.
+- **unit**: unit specification
 
-- **name**: `metric_name`  
-  **description**: The metric description should clearly explain what data is
-  being measured, and provide some information regarding what it should mean to the user.  
-  **unit**: unit specification
+`example.error_rate`
+- **description**: The percentage of error responses, calculated as "count of
+  error responses / total count of responses".
+- **unit**: percentile
 
 ## Usage
-
-```
-sensu-CHANGEME
-```
-
-### Flags
-
-```
-sensu-CHANGEME --flag value
-```
-
-| flag        | required | type    | description                   |
-| ----------- | -------- | ------- | ----------------------------- |
-| -f, --foo   | yes      | string  | Example flag (default: value) |
-| --help      | no       | string  | Help for sensu-CHANGEME       |
-
-### Dependencies
-
-- 
-
-### Help
 
 ```
 The Sensu Go CHANGEME for x
@@ -57,6 +36,10 @@ Flags:
   -f, --foo string   example
   -h, --help         help for sensu-CHANGEME
 ```
+
+### Dependencies
+
+- 
 
 ## Configuration
 
