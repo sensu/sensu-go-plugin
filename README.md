@@ -97,7 +97,6 @@ spec:
     - 
   runtime_assets:
     - 
-  timeout: 0
 ```
 
 ### Example Sensu filter definition
@@ -132,7 +131,6 @@ spec:
     - 
   runtime_assets:
     - 
-  timeout: 0
 ```
 
 ## Installation
