@@ -31,7 +31,7 @@ Example Sensu Go definition:
 
 ## Installation from source and contributing
 
-The preferred way of installing and deploying this plugin is to use it as an [asset]. If you would like to compile and install the plugin from source or contribute to it, download the latest version of the sensu-CHANGEME from [releases][1],
+The preferred way of installing and deploying this plugin is to use it as an [asset]. If you would like to compile and install the plugin from source or contribute to it, download the latest version of the sensu-CHANGEME from [releases][1]
 or create an executable script from this source.
 
 From the local path of the sensu-CHANGEME repository:
