@@ -1,7 +1,23 @@
-# Sensu Go CHANGEME Plugin
-[![Bonsai Asset Badge](https://img.shields.io/badge/CHANGEME-Download%20Me-brightgreen.svg?colorB=89C967&logo=sensu)](https://bonsai.sensu.io/assets/CHANGEME/CHANGEME) [![TravisCI Build Status](https://travis-ci.org/CHANGEME/sensu-CHANGEME.svg?branch=master)](https://travis-ci.org/CHANGEME/sensu-CHANGEME)
 
-TODO: Description.
+[![Bonsai Asset Badge](https://img.shields.io/badge/CHANGEME-Download%20Me-brightgreen.svg?colorB=89C967&logo=sensu)](https://bonsai.sensu.io/assets/CHANGEME/CHANGEME) [![TravisCI Build Status](https://travis-ci.org/CHANGEME/sensu-CHANGEME.svg?branch=master)
+](https://travis-ci.org/CHANGEME/sensu-CHANGEME)
+
+# Sensu Go CHANGEME Plugin
+
+TODO: Table of Contents
+
+- [Overview](#overview)
+- [Usage examples](#usage-examples)
+- [Configuration](#configuration)
+  - [Asset registration](#asset-registration)
+  - [Asset manifest](#asset-manifest)
+  - [Resource(check,filter,mutator,handler) manifest](#resource-manifest)
+- [Functionality](#functionality)
+- [Installation from source and contributing](#installation-from-source-and-contributing)
+
+## Overview
+
+TODO: Write an overview of the plugin's functionality.
 
 ## Configuration
 
@@ -13,21 +29,40 @@ Assets are the best way to make use of this plugin. If you're not using an asset
 
 If you're using an earlier version of sensuctl, you can find the asset on the [Bonsai Asset Index](https://bonsai.sensu.io/assets/CHANGEME/sensu-CHANGEME).
 
+### Asset manifest
+
+TODO: Provide an example asset manifest
+
+```yml
+---
+type: Asset
+api_version: core/v2
+metadata:
+  name: CHANGEME
+spec:
+  url: https://CHANGEME
+  sha512: CHANGEME
+```
+
+### Resource (check,filter,mutator,handler) manifest
+
 Example Sensu Go definition:
 
-```json
-{
-    "api_version": "core/v2",
-    "type": "CHANGEME",
-    "metadata": {
-        "namespace": "default",
-        "name": "CHANGEME"
-    },
-    "spec": {
-        "...": "..."
-    }
-}
+```yml
+---
+api_version: core/v2
+type: CHANGEME
+metadata:
+  namespace: default
+  name: CHANGEME
+spec:
+  "...": "..."
+
 ```
+
+### Functionality
+
+TODO: Document anything special needed for this plugin to function. Does it need an on-disk configuration? Does it require anything special to operate?
 
 ## Installation from source and contributing
 
@@ -40,24 +75,7 @@ From the local path of the sensu-CHANGEME repository:
 go build -o /usr/local/bin/sensu-CHANGEME main.go
 ```
 
-## Usage Examples
-
-Help:
-
-```
-The Sensu Go CHANGEME for x
-
-Usage:
-  sensu-CHANGEME [flags]
-
-Flags:
-  -f, --foo string   example
-  -h, --help         help for sensu-CHANGEME
-```
-
-## Contributing
-
-See https://github.com/sensu/sensu-go/blob/master/CONTRIBUTING.md
+For more information about contributing to this plugin, see https://github.com/sensu/sensu-go/blob/master/CONTRIBUTING.md
 
 [1]: https://github.com/CHANGEME/sensu-CHANGEME/releases
 [2]: #asset-registration
