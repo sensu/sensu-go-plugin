@@ -11,7 +11,7 @@ TODO: Table of Contents
 - [Configuration](#configuration)
   - [Asset registration](#asset-registration)
   - [Asset configuration](#asset-configuration)
-  - [Resource(CHANGEME)(check,filter,mutator,handler) configuration](#resource-configuration)
+  - [Resource(CHANGEME to: check,filter,mutator,handler) configuration](#resource-configuration)
 - [Functionality](#functionality)
 - [Installation from source and contributing](#installation-from-source-and-contributing)
 
@@ -44,7 +44,7 @@ spec:
   sha512: CHANGEME
 ```
 
-### Resource (check,filter,mutator,handler) configuration
+### Resource(CHANGEME to: check,filter,mutator,handler) configuration
 
 Example Sensu Go definition:
 
