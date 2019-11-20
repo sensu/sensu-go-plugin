@@ -10,8 +10,8 @@ TODO: Table of Contents
 - [Usage examples](#usage-examples)
 - [Configuration](#configuration)
   - [Asset registration](#asset-registration)
-  - [Asset manifest](#asset-configuration)
-  - [Resource(CHANGEME)(check,filter,mutator,handler) manifest](#resource-configuration)
+  - [Asset configuration](#asset-configuration)
+  - [Resource(CHANGEME)(check,filter,mutator,handler) configuration](#resource-configuration)
 - [Functionality](#functionality)
 - [Installation from source and contributing](#installation-from-source-and-contributing)
 
