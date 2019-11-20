@@ -10,8 +10,8 @@ TODO: Table of Contents
 - [Usage examples](#usage-examples)
 - [Configuration](#configuration)
   - [Asset registration](#asset-registration)
-  - [Asset manifest](#asset-manifest)
-  - [Resource(check,filter,mutator,handler) manifest](#resource-manifest)
+  - [Asset manifest](#asset-configuration)
+  - [Resource(CHANGEME)(check,filter,mutator,handler) manifest](#resource-configuration)
 - [Functionality](#functionality)
 - [Installation from source and contributing](#installation-from-source-and-contributing)
 
@@ -29,7 +29,7 @@ Assets are the best way to make use of this plugin. If you're not using an asset
 
 If you're using an earlier version of sensuctl, you can find the asset on the [Bonsai Asset Index](https://bonsai.sensu.io/assets/CHANGEME/sensu-CHANGEME).
 
-### Asset manifest
+### Asset configuration
 
 TODO: Provide an example asset manifest
 
@@ -44,7 +44,7 @@ spec:
   sha512: CHANGEME
 ```
 
-### Resource (check,filter,mutator,handler) manifest
+### Resource (check,filter,mutator,handler) configuration
 
 Example Sensu Go definition:
 
