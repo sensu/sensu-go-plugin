@@ -17,7 +17,9 @@ TODO: Table of Contents
 
 ## Overview
 
-TODO: Write an overview of the plugin's functionality.
+If you're writing or updating a plugin's README, review the Sensu Community [plugin README style guide](https://github.com/sensu-plugins/community/blob/master/PLUGIN_STYLEGUIDE.md) for content suggestions and guidance.
+
+TODO: Write an overview of the plugin's functionality. 
 
 ## Configuration
 
